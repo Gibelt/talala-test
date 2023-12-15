@@ -1,0 +1,120 @@
+doctype html
+html(lang= 'en')
+  head
+    meta(charset='utf-8')
+    title= 'Cheelee'
+  body
+    header.header 
+        .container
+            .header__content
+                a(href="/") 
+                    img.header__logo(src=require("./images/logo.png"), alt="Logo")
+                nav
+                    ul.header__list 
+                        li.header__item
+                            a.header__link(href="#") About us
+                        li.header__item 
+                            a.header__link(href="#") Roadmap
+                        li.header__item 
+                            a.header__link(href="#") Documents
+                        li.header__item 
+                            a.header__link(href="#") F.A.Q.
+                        li.header__item 
+                            a.header__link.header__link_cyan(href="#") Buy NFT glasses
+                .header__info 
+                    .header__cost
+                        .header__img_cheel 
+                        .header__text
+                            .header__name cheel
+                            .header__price $8,00
+                                .header__arrow
+                    .header__cost
+                        .header__img_lee 
+                        .header__text
+                            .header__name lee
+                            .header__price $8,00
+                                .header__arrow        
+                    .header__auditedby
+                    select.header__lang
+                        option(value="en") en 
+    main.main 
+        section.promo
+            .container
+                .promo__content
+                    .promo__text     
+                        h1.promo__title GameFi short video 
+                            span.promo__span platform
+                        p.promo__subtitle Watch. Play. Earn
+                        .promo__registration 
+                            .promo__icon 
+                            .promo__describe Pre-registration in Google Play
+                    ul.promo__social
+                        li.promo__item 
+                            a.promo__link.promo__link_discord(href="#") 
+                        li.promo__item 
+                            a.promo__link.promo__link_telegram(href="#") 
+                        li.promo__item 
+                            a.promo__link.promo__link_twitter(href="#") 
+                        li.promo__item 
+                            a.promo__link.promo__link_facebook(href="#") 
+                        li.promo__item 
+                            a.promo__link.promo__link_instagram(href="#") 
+                        li.promo__item 
+                            a.promo__link.promo__link_medium(href="#")    
+        section.mission 
+            .container_xs 
+                .mission__content
+                    h1.mission__title #[span.promo__span Cheelee’s] mission
+                    .mission__text 
+                        p.mission__paragraph Users spend an average of 2.5 hours daily on social networks and get nothing fоr it. We believe that this is unfair
+                        p.mission__paragraph #[span.mission__span Our mission] is to provide everyone with the opportunity to monetize time in social networks
+                    h3.mission__subtitle #[span.promo__span Cheelee] works within the "Attention Economy" framework
+                    .mission__text 
+                        p.mission__paragraph.mission__paragraph_xs Other social media consider a user as an information and advertising influence target, #[span.mission__span but a Cheelee user is a full system member, partner and beneficiary]
+                        p.mission__paragraph.mission__paragraph_xs The main idea is that attention is converted into income with digital platforms. You pay your attention to what you want, and get paid for it. Your attention has a certain cost.
+                        p.mission__paragraph.mission__paragraph_xs #[span.mission__span The Attention Economy] sees human attention as a scarce commodity making it a new oil! The founder of this concept is the Nobel laureate Herbert Simon
+                        p.mission__paragraph.mission__paragraph_xs Through the GameFi mechanics, Cheelee’s users earn together with the platform by converting their attention into money 
+        section.steps 
+            .container_xs 
+                .steps__content 
+                    .steps__left
+                        .steps__text
+                            .steps__item 
+                                h1.steps__title 1
+                                p.steps__subtitle Sign-up and get #[br] your #[span.promo__span free NFT glasses]
+                            .steps__item 
+                                h1.steps__title 2
+                                p.steps__subtitle.steps__subtitle_xs Watch the feed and get the boxes #[span.promo__span with LEE tokens]
+                        img.steps__img(src=require("./images/steps.png"), alt="Phone")
+                    .steps__right
+                        .steps__item 
+                            h1.steps__title 3
+                            p.steps__subtitle Buy your NFT glasses and #[span.promo__span get LEE tokens] directly when watching the feed
+                            p.steps__describe.steps__describe_flex The higher the rarity #[br] of your NFT glasses, #[br] the more points you get when leveling them #[br] up – the more tokens #[br] you can earn
+                                img.steps__img_xs(src=require("./images/glasses.png"), alt="Glasses")
+                        .steps__item 
+                            h1.steps__title 4
+                            p.steps__subtitle.steps__subtitle_xs Upgrade your #[span.promo__span NFT glasses]
+                        .steps__item 
+                            h1.steps__title 5
+                            p.steps__subtitle #[span.promo__span Buy additional #[br] NFT glasses] #[br] to increase the amount of Attention #[br] and rewarded time #[br] of watching the feed
+                            p.steps__describe 1 Attention = #[span.mission__span 10 minutes] of rewarded feed viewing
+        section.getbox 
+            .container_xs 
+                .getbox__content 
+                    .getbox__text 
+                        h1.getbox__title.mission__title Watch the videos and #[span.promo__span get the boxes]
+                        p.mission__paragraph.mission__paragraph_xs.getbox__paragraph While watching the feed you can get boxes with NFT or LEE tokens
+                    img.getbox__img(src=require("./images/box.png"), alt="Box")
+        article.buy 
+            .container 
+                .buy__content 
+                    h3.buy__text.steps__subtitle Don’t miss the #[span.promo__span Presale]
+                    a.buy__link(href="#") Buy NFT glasses
+        section.example 
+            .container_xs 
+                .example__content
+                    .example__text
+                        h3.example__title.steps__subtitle Cheelee team has #[span.promo__span already launched product]
+                        p.example__description.mission__paragraph.mission__paragraph_xs The project is based on the already launched in 2021 short video platform – NUTSon (1.5M users, 33% engagement rate and 15K videos created daily)
+                
