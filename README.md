@@ -16,3 +16,4 @@ HTML, SASS, PUG, Webpack
 + +79148808738
 + IgorOp3@gmail.com
 + [https://t.me/igor_oparin](https://t.me/igor_oparin)
++ [Резюме на hh.ru](https://irkutsk.hh.ru/resume/fa37dc5fff0bff48040039ed1f386643334247) 
